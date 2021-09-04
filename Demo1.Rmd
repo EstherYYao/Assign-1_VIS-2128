@@ -27,7 +27,15 @@ plot(pressure)
 
 Note that the `echo = FALSE` parameter was added to the code chunk to prevent printing of the R code that generated the plot.
 
+```{r load packages, message=FALSE}
+```
 ```{r}
+enterpriseZ<-st_read("https://data.cityofchicago.org/api/geospatial/64xf-pyvh?method=export&format=KML",quite=TRUE)
+
+```
+```{r load}
+
+```
 
 ```
 
